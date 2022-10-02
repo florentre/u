@@ -8,14 +8,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-Console.WriteLine("Florent")
+Console.WriteLine("Florent");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+Console.WriteLine("Hello World");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
