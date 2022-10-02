@@ -17,6 +17,7 @@ if (app.Environment.IsDevelopment())
 }
 Console.WriteLine("Hello World");
 Console.WriteLine("Ola");
+Console.WriteLine("Tungjatjeta");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
